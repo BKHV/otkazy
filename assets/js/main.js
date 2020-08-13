@@ -6896,7 +6896,7 @@ function(e, t) {
             ],
             capri_sun: [
                 [
-                    ["^That's pretty young. Want some Capri Sun?", "\n", ['^<img src="/assets/images/capri-sun.png">', "\n", {
+                    ["^That's pretty young. Want some Capri Sun?", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
                         "->": "start_over"
                     }, {
                         "#n": "g-1"
