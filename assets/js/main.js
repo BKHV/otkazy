@@ -6885,7 +6885,7 @@ function(e, t) {
             equifax: [
                 [
                     ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
-                        "->": "start_over"
+                        "->": "sovcombank"
                     }, {
                         "#n": "g-1"
                     }], {
