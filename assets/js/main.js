@@ -6471,7 +6471,7 @@ function(e, t) {
             ],
             good_mood: [
                 [
-                    ["^Какая? ", {
+                    ["^К сожалению, если вы допустили просрочку по кредитам большинство банков будут автоматически отказывать. Есть несколько вариантов исправления кредитной истории:", {
                         "#": '{ "userInteraction": { "placeholder": "MM/DD/YYYY", "stateVar": "birthday", "type": "text", "handler": "birthdayToAge", "validator": "date" } }'
                     }, "\n", ["ev", {
                             "^->": "good_mood.0.g-0.3.$r1"
