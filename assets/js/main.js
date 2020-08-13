@@ -6686,7 +6686,7 @@ function(e, t) {
                                     }], {
                                         "#": '{ "sender": 1 }'
                                     }, "\n", {
-                                        "->": "user_age"
+                                        "->": "user_age2"
                                     }, "\n", null
                                 ]
                             }
@@ -6777,6 +6777,42 @@ function(e, t) {
                 }
             ],            
             user_age: [
+                [
+                    ["^So you are <strong>", ["G>", "ev", {
+                        "VAR?": "age"
+                    }, "out", "/ev", "G<", null], "^ years</strong> old.", "\n", [
+                        ["G>", ["ev", {
+                                "VAR?": "age"
+                            }, 18, ">=", "/ev", {
+                                "->": ".^.b",
+                                c: !0
+                            }, {
+                                b: [{
+                                    "->": "aviation_recipe"
+                                }, {
+                                    "->": ".^.^.^.3"
+                                }, null]
+                            }],
+                            [{
+                                "->": ".^.b"
+                            }, {
+                                b: [{
+                                    "->": "capri_sun"
+                                }, {
+                                    "->": ".^.^.^.3"
+                                }, null]
+                            }], "nop", "G<", null
+                        ], "\n", "done", {
+                            "#n": "g-1"
+                        }
+                    ], {
+                        "#n": "g-0"
+                    }], null
+                ], {
+                    "#f": 3
+                }
+            ],
+            user_age2: [
                 [
                     ["^So you are <strong>", ["G>", "ev", {
                         "VAR?": "age"
