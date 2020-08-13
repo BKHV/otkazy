@@ -6475,44 +6475,6 @@ function(e, t) {
                         "#": '{ "userInteraction": { "placeholder": "MM/DD/YYYY", "stateVar": "birthday", "type": "text", "handler": "birthdayToAge", "validator": "date" } }'
                     }, "\n", 
                     ["ev", {
-                            "^->": "bad_ch.0.g-0.2.$r1"
-                        }, {
-                            "temp=": "$r"
-                        }, "str", {
-                            "->": ".^.s"
-                        },
-                        [{
-                            "#n": "$r1"
-                        }], "/str", "/ev", {
-                            "*": ".^.c",
-                            flg: 2
-                        }, {
-                            s: ["^ ", ["^ХХХ", {
-                                    "->": "$r",
-                                    var: !0
-                                }, null], {
-                                "->": "$r",
-                                var: !0
-                            }, null],
-                            c: ["ev", {
-                                    "^->": "bad_ch.0.g-0.2.c.$r2"
-                                }, "/ev", {
-                                    "temp=": "$r"
-                                }, {
-                                    "->": ".^.^.s"
-                                },
-                                [{
-                                    "#n": "$r2"
-                                }], {
-                                    "#": '{ "sender": 1 }'
-                                }, "\n", "\n", {
-                                    "->": ".^.^.^.^.g-1"
-                                },
-                                null
-                            ]
-                        }
-                    ],
-                    ["ev", {
                             "^->": "bad_ch.0.g-0.3.$r1"
                         }, {
                             "temp=": "$r"
