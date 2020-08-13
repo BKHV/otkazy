@@ -6873,6 +6873,32 @@ function(e, t) {
                     "#f": 3
                 }
             ],
+            sovcombank: [
+                [
+                    ["^Совкомбанк дает возможность улучшить кредитную историю за счет выдаи вам небольшого кредита, который ноебходимо вернуть в срок и без просрочки", "\n", ['^<img src="https://tipkredit.com/wp-content/uploads/2017/03/logo-sovcombank.jpg">', "\n", {
+                        "->": "start_over"
+                    }, {
+                        "#n": "g-1"
+                    }], {
+                        "#n": "g-0"
+                    }], null
+                ], {
+                    "#f": 3
+                }
+            ],
+            equifax: [
+                [
+                    ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
+                        "->": "start_over"
+                    }, {
+                        "#n": "g-1"
+                    }], {
+                        "#n": "g-0"
+                    }], null
+                ], {
+                    "#f": 3
+                }
+            ],
             capri_sun: [
                 [
                     ["^That's pretty young. Want some Capri Sun?", "\n", ['^<img src="/assets/images/capri-sun.png">', "\n", {
