@@ -6555,7 +6555,7 @@ function(e, t) {
             ],
             bad_mood: [
                 [
-                    ["^Okay, I won't bother.", "\n", "end", {
+                    ["^Какой банк вам отказал?", "\n", "end", {
                         "#n": "g-0"
                     }], null
                 ], {
