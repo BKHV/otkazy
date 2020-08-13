@@ -6686,7 +6686,7 @@ function(e, t) {
                                     }], {
                                         "#": '{ "sender": 1 }'
                                     }, "\n", {
-                                        "->": "bad_mood"
+                                        "->": "user_age"
                                     }, "\n", null
                                 ]
                             }
