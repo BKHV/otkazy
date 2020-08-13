@@ -6831,7 +6831,7 @@ function(e, t) {
                                 "->": ".^.b"
                             }, {
                                 b: [{
-                                    "->": "capri_sun"
+                                    "->": "equifax"
                                 }, {
                                     "->": ".^.^.^.3"
                                 }, null]
@@ -6894,7 +6894,7 @@ function(e, t) {
                     "#f": 3
                 }
             ],
-            equifax: [
+            capri_sun: [
                 [
                     ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
                         "->": "start_over"
@@ -6907,9 +6907,9 @@ function(e, t) {
                     "#f": 3
                 }
             ],
-            capri_sun: [
+            equifax: [
                 [
-                    ["^Equifax Credit Services", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
+                    ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
                         "->": "start_over"
                     }, {
                         "#n": "g-1"
