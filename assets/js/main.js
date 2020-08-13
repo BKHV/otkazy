@@ -6869,19 +6869,6 @@ function(e, t) {
                     "#f": 3
                 }
             ],
-            sovcombank: [
-                [
-                    ["^Совкомбанк дает возможность улучшить кредитную историю за счет выдаи вам небольшого кредита, который ноебходимо вернуть в срок и без просрочки", "\n", ['^<img src="https://vsezaimyonline.ru/images/online-credit/sovcombank.png">', "\n", {
-                        "->": "start_over"
-                    }, {
-                        "#n": "g-1"
-                    }], {
-                        "#n": "g-0"
-                    }], null
-                ], {
-                    "#f": 3
-                }
-            ],
             capri_sun: [
                 [
                     ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
@@ -6898,7 +6885,7 @@ function(e, t) {
             equifax: [
                 [
                     ["^Бюро Эквифакс может исправить ошибки в вашей кредитной истории, если такие имеются", "\n", ['^<img src="https://online.equifax.ru/v2/images/logo.jpg">', "\n", {
-                        "->": "sovcombank"
+                        "->": "start_over"
                     }, {
                         "#n": "g-1"
                     }], {
@@ -6908,6 +6895,19 @@ function(e, t) {
                     "#f": 3
                 }
             ],
+            sovcombank: [
+                [
+                    ["^Совкомбанк дает возможность улучшить кредитную историю за счет выдаи вам небольшого кредита, который ноебходимо вернуть в срок и без просрочки", "\n", ['^<img src="https://vsezaimyonline.ru/images/online-credit/sovcombank.png">', "\n", {
+                        "->": "start_over"
+                    }, {
+                        "#n": "g-1"
+                    }], {
+                        "#n": "g-0"
+                    }], null
+                ], {
+                    "#f": 3
+                }
+            ],            
             start_over: [
                 [
                     ["^Want to start over?", "\n", ["ev", {
