@@ -6814,9 +6814,7 @@ function(e, t) {
             ],
             user_age2: [
                 [
-                    ["^So you are <strong>", ["G>", "ev", {
-                        "VAR?": "age"
-                    }, "out", "/ev", "G<", null], "^ years</strong> old.", "\n", [
+                    ["^bla bla bla.", "\n", [
                         ["G>", ["ev", {
                                 "VAR?": "age"
                             }, 18, ">=", "/ev", {
