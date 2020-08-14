@@ -7040,7 +7040,7 @@ function(e, t, n) {
             ["class", "message-panel__avatar"]
         ], null, null, null, null, null)), (e()(), o._23(-1, null, ["\n    "])), (e()(), o._7(4, 0, null, null, 0, "img", [
             ["alt", ""],
-            ["src", "assets/images/declined.png"]
+            ["src", "assets/images/logo.png"]
         ], null, null, null, null, null)), (e()(), o._23(-1, null, ["\n  "])), (e()(), o._23(-1, null, ["\n  "])), (e()(), o._7(7, 0, null, null, 5, "div", [
             ["botChatScroll", ""],
             ["class", "message-panel__messages"]
