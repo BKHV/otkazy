@@ -580,8 +580,8 @@ template {
 }
 
 .message-panel__avatar {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   margin-right: auto;
   margin-bottom: 60px;
   margin-left: auto
