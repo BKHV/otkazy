@@ -581,7 +581,7 @@ template {
 
 .message-panel__avatar {
   width: 200px;
-  height: 200px;
+  height: 50px;
   margin-right: auto;
   margin-bottom: 60px;
   margin-left: auto
